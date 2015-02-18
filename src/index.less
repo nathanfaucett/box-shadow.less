@@ -1,0 +1,40 @@
+.box-shadow(@h, @v, @color) {
+  -webkit-box-shadow: @h @v 0px 0px @color;
+  -moz-box-shadow: @h @v 0px 0px @color;
+  -ms-box-shadow: @h @v 0px 0px @color;
+  -o-box-shadow: @h @v 0px 0px @color;
+  box-shadow: @h @v 0px 0px @color;
+}
+
+.box-shadow(@h, @v, @b, @color) {
+  -webkit-box-shadow: @h @v @b 0px @color;
+  -moz-box-shadow: @h @v @b 0px @color;
+  -ms-box-shadow: @h @v @b 0px @color;
+  -o-box-shadow: @h @v @b 0px @color;
+  box-shadow: @h @v @b 0px @color;
+}
+
+.box-shadow(@h, @v, @b, @spread, @color) {
+  -webkit-box-shadow: @h @v @b @spread @color;
+  -moz-box-shadow: @h @v @b @spread @color;
+  -ms-box-shadow: @h @v @b @spread @color;
+  -o-box-shadow: @h @v @b @spread @color;
+  box-shadow: @h @v @b @spread @color;
+}
+
+.box-shadow(@h, @v, @b, @spread, @color, @inset) {
+  -webkit-box-shadow: @h @v @b @spread @color @inset;
+  -moz-box-shadow: @h @v @b @spread @color @inset;
+  -ms-box-shadow: @h @v @b @spread @color @inset;
+  -o-box-shadow: @h @v @b @spread @color @inset;
+  box-shadow: @h @v @b @spread @color @inset;
+}
+
+.box-shadow(@str) {
+  -webkit-box-shadow: e(@str);
+  -moz-box-shadow: e(@str);
+  -ms-box-shadow: e(@str);
+  -o-box-shadow: e(@str);
+  box-shadow: e(@str);
+}
+

@@ -1,0 +1,18 @@
+{
+  "name": "box-shadow.less",
+  "version": "0.0.1",
+  "description": "box-shadow helper functions for less",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nathanfaucett/box-shadow.less.git"
+  },
+  "style": "src/index.less",
+  "keywords": [
+    "box-shadow",
+    "box-shadow.less",
+    "box-shadow.css"
+  ],
+  "author": "Nathan Faucett",
+  "license": "BSD-2-Clause",
+  "readmeFilename": "README.md"
+}
